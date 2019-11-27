@@ -3,15 +3,18 @@
     "type": "category",
     "commands": [
         "add",
-        "remove",
-        "update",
+        "get-info",
+        "help",
         "push",
-        "console",
+        "remove",
+        "setup",
+        "setup-obs",
         "start",
         "stop",
-        "help",
-        "setup-obs",
-        "setup",
-        "get-info"
+        "update",
+        "version"
+    ],
+    "eventHandlers":[
+        "PrePush"
     ]
 }

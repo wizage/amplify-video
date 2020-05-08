@@ -19,6 +19,10 @@ Resources:
         DefaultCacheBehavior:
           ForwardedValues:
               QueryString: false
+              Headers:
+                - Origin
+                - Access-Control-Request-Headers
+                - Access-Control-Request-Method
           AllowedMethods:
             - GET
             - HEAD
